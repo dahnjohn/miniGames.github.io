@@ -49,29 +49,62 @@
         </div>
     </div>
 
-    <div class="container list-games">
+<!-- game content -->
+    <div class="container game">
         <div class="row mt-5">
-            <div class="col-md-12">
-                <h1>Javascript Games</h1>
+            <div class="col-md-9 mt-5 text-center">
+                <div>
+                    <h1 class="text-center">Guess the Number</h1>
+                    <div class="game1">
+                        <p class="text-center text-light">Guess a number between 1 and 100:</p>
+                        <input type="number" id="guess" class="form-control" min="1" max="100" required>
+                        <br>
+                        <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+                        <br>
+                        <p id="message"></p>
+                    </div>
+                </div>
+
+                <div class="other-games mt-3">
+                    <div class="game-1">
+                        <a href="game1.html"><img src="img/game1.jpg" alt=""></a>
+                        <h4>Guess The Number</h4>
+                    </div>
+                    <div class="game-2">
+                        <a href="game2.html"><img src="img/game2.png" alt=""></a>
+                        <h4>Word Scramble</h4>
+                    </div>
+                    <div class="game-3">
+                        <a href="game3.html"><img src="img/game3.png" alt=""></a>
+                        <h4>hangman game</h4>
+                    </div>
+                    <div class="game-4">
+                        <img src="img/game4.png" alt="">
+                        <h4>Typing Game</h4>
+                    </div>
+                </div>
             </div>
 
-            <div class="games mt-5">
-                <div class="game-1">
-                    <a href="game1.html"><img src="img/game1.jpg" alt=""></a>
-                    <h4>Guess The Number</h4>
+            <div class="col-md-3 mt-5">
+                <div class="side-1">
+                    <div class="game-1">
+                        <a href="game1.html"><img src="img/game1.jpg" alt=""></a>
+                        <h4>Guess The Number</h4>
+                    </div>
+                    <div class="game-2">
+                        <a href="game2.html"><img src="img/game2.png" alt=""></a>
+                        <h4>Word Scramble</h4>
+                    </div>
                 </div>
-                <div class="game-2">
-                    <a href="game2.html"><img src="img/game2.png" alt=""></a>
-                    <h4>Word Scramble</h4>
+                <div class="side-2 mt-5">
+                    <div class="ad-1">
+                        <img src="img/ad1.gif" alt="">
+                    </div>
+                    <div class="ad-2 mt-3">
+                        <img src="img/ad2.png" alt="">
+                    </div>
                 </div>
-                <div class="game-3">
-                    <a href="game3.html"><img src="img/game3.png" alt=""></a>
-                    <h4>hangman game</h4>
-                </div>
-                <div class="game-4">
-                    <img src="img/game4.png" alt="">
-                    <h4>Typing Game</h4>
-                </div>
+
             </div>
         </div>
     </div>
@@ -85,10 +118,7 @@
     </section>
 
 
-
-    
-
-
+<script src="game1.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     
 </body>
