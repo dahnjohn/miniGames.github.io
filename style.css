@@ -3,6 +3,7 @@ nav img{
 }
 .navbar-brand{
     color: #6BF8FF;
+    font-family: 'Press Start 2P', cursive;
 }
 .navbar{
     background-color: #081843;
@@ -15,8 +16,27 @@ nav img{
 body{
     background-color: #0a1d4f;
 }
+
+.javaTittleGames{
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.bgName{
+  background-color:#102d4c;
+}
+.gameTittle{
+  color: #69f3fb;
+  font-family: 'Noto Sans', sans-serif;
+  /* font-size: 18px; */
+
+}
+
 .list-games{
     margin-top: 8%;
+}
+
+.footer{
+  background-color: #1437a1;
 }
 
 /* game1 */
