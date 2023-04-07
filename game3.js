@@ -154,7 +154,7 @@ const initializer = () => {
 const canvasCreator = () => {
   let context = canvas.getContext("2d");
   context.beginPath();
-  context.strokeStyle = "#000";
+  context.strokeStyle = "#fff";
   context.lineWidth = 2;
 
   //For drawing lines
