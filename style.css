@@ -33,6 +33,7 @@ body{
 .gameCol{
   transition: transform .4s;
   border: none;
+  margin: 0 5px;
 }
 
 .gameCol:hover{
