@@ -47,6 +47,8 @@ body{
 
 .list-games{
     margin-top: 8%;
+    margin-bottom: 8%;
+    
 }
 
 .footer{
@@ -55,10 +57,15 @@ body{
 
 /* game1 */
 .game1{
+  
     /* height: 100vh; */
-    background-color: black;
-    /* background-image: url('https://media.tenor.com/AJBv6U1rfkQAAAAC/background-image-galaxy.gif'); */
+    /* background-color: black; */
+    background-image: url('https://media.tenor.com/AJBv6U1rfkQAAAAC/background-image-galaxy.gif');
     padding: 25%;
+}
+.game1-content{
+  background-color: #1c1c1c;
+  padding: 5%;
 }
 .game h1{
     color: #6BF8FF;
@@ -92,8 +99,12 @@ body{
 /* game2 */
 .game2{
     /* height: 100vh; */
-    background-color: black;
+    background-image: url('https://media.tenor.com/AJBv6U1rfkQAAAAC/background-image-galaxy.gif');
     padding: 25%;
+}
+.game2-content{
+  background-color: #1c1c1c;
+  padding: 5%;
 }
 .game h1{
     color: #6BF8FF;
@@ -106,8 +117,12 @@ body{
 /* game3 */
 .game3{
     /* height: 100vh; */
-    background-color: black;
+    background-image: url('https://media.tenor.com/AJBv6U1rfkQAAAAC/background-image-galaxy.gif');
     padding: 25%;
+}
+.game3-content{
+  background-color: #1c1c1c;
+  padding: 5%;
 }
 .game h1{
     color: #6BF8FF;
@@ -126,16 +141,23 @@ body{
   }
   #options-container button {
     padding: 0.6em 1.2em;
-    border: 3px solid #000000;
-    background-color: #ffffff;
-    color: #000000;
+    border: 3px solid #0dcaf0;
+    background-color: #000;
+    color: #0dcaf0;
     border-radius: 0.3em;
     text-transform: capitalize;
+    transition: transform .4s;
+  }
+  #options-container button:hover{
+    border: 3px solid #0dcaf0;
+    background-color: #0dcaf0;
+    color: #000;
+    transform: scale(1.1);
   }
   #options-container button:disabled {
-    border: 3px solid #808080;
-    color: #808080;
-    background-color: #efefef;
+    border: 3px solid #0dcaf0;
+    color: #fff;
+    background-color: #000;
   }
   #options-container button.active {
     background-color: #f4c531;
@@ -153,7 +175,9 @@ body{
     height: 2.4em;
     width: 2.4em;
     border-radius: 0.3em;
-    background-color: #ffffff;
+    background-color: #000;
+    border: 1px solid #0dcaf0;
+    color: #fff;
   }
   .new-game-popup {
     background-color: #ffffff;
@@ -212,8 +236,12 @@ body{
   /* game 4 */
   .game4{
     /* height: 100vh; */
-    background-color: black;
+    background-image: url('https://media.tenor.com/AJBv6U1rfkQAAAAC/background-image-galaxy.gif');
     padding: 20%;
+  }
+  .game4-content{
+    background-color: #1c1c1c;
+    padding: 5%;
   }
   .game h1{
       color: #6BF8FF;
@@ -223,6 +251,7 @@ body{
   }
   #message{
     color: red;
+
   }
   .t-5 span{
     color: #39d78d;
