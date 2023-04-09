@@ -13,10 +13,26 @@ const userGuess = parseInt(guessInput.value);
 
     // compare user's guess to the random number
     if (userGuess === randomNumber) {
-        message.innerHTML = "Congratulations! You guessed the number!";
-        message.style.color = "green";
+        // message.innerHTML = "Congratulations! You guessed the number!";
+        // message.style.color = "green";
+
         guessInput.disabled = true;
         submitButton.disabled = true;
+        message.innerHTML = "";
+
+        Swal.fire({
+            title: 'Congratulations! You guessed the number!',
+            width: 600,
+            padding: '3em',
+            color: '#716add',
+            backdrop: `
+              rgba(0,0,123,0.4)
+              url("img/cat-space.gif")
+              left top
+              no-repeat
+            `
+          })
+
     } else if (userGuess < randomNumber) {
         message.innerHTML = "Too low! Guess again.";
         message.style.color = "red";

@@ -10,6 +10,7 @@ const levels = {
 
 }
 
+
 //to change the levels
 const currentLevel = levels.easy;
 

@@ -15,6 +15,8 @@ nav img{
 
 body{
     background-color: #0a1d4f;
+
+
 }
 
 .javaTittleGames{
@@ -55,6 +57,7 @@ body{
 .game1{
     /* height: 100vh; */
     background-color: black;
+    /* background-image: url('https://media.tenor.com/AJBv6U1rfkQAAAAC/background-image-galaxy.gif'); */
     padding: 25%;
 }
 .game h1{
