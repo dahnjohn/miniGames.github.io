@@ -64,7 +64,7 @@ body{
     padding: 25%;
 }
 .game1-content{
-  background-color: #1c1c1c;
+  background-color: #1c1c1cbf;
   padding: 5%;
 }
 .game h1{
@@ -103,7 +103,7 @@ body{
     padding: 25%;
 }
 .game2-content{
-  background-color: #1c1c1c;
+  background-color: #1c1c1cbf;
   padding: 5%;
 }
 .game h1{
@@ -121,7 +121,7 @@ body{
     padding: 25%;
 }
 .game3-content{
-  background-color: #1c1c1c;
+  background-color: #1c1c1cbf;
   padding: 5%;
 }
 .game h1{
@@ -240,7 +240,7 @@ body{
     padding: 20%;
   }
   .game4-content{
-    background-color: #1c1c1c;
+    background-color: #1c1c1cbf;
     padding: 5%;
   }
   .game h1{
